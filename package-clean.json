@@ -1,0 +1,18 @@
+{
+  "name": "github-pusher",
+  "version": "1.0.0",
+  "description": "GitHub Auto Pusher - Vercel Deployment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
