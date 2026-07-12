@@ -1,21 +1,6 @@
 {
   "version": 2,
-  "env": {
-    "GITHUB_TOKEN": {
-      "description": "GitHub Personal Access Token",
-      "required": true
-    }
-  },
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "npm install",
   "routes": [
     {
       "src": "/api/.*",
